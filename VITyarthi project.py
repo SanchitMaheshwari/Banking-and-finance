@@ -4,7 +4,7 @@ age =  int(input("Enter your age : "))
 gender = input("Enter your gender : ")
 address = input("Enter your address : ")
 mobile = int(input("Enter your mobile number : "))
-while(mobile// (10**10)<1 or mobile// (10**10)>10):
+while(mobile// (10**9)<1 or mobile// (10**9)>10):
     print ("Invalid number")
     mobile = int(input("Enter your mobile number : "))
      
@@ -133,4 +133,5 @@ if ( choise == 4 ) :
     print("Interest to be paid : " , I)
     print("Total amount to be paid after", t, "years is : " ,Totalpay)
     print("Amount to be paid per month : " , Totalpay/(t*12))
+
     print("Mortgage kept is : " , mortgage)
